@@ -1,0 +1,9 @@
+* nixos configuration
+
+  This repository contains general configurations to setup a nixos
+  machine. In order for this configuration to work a machine-specific
+  configuration must be provided.
+
+  This configuration machine should be stored in the ~device~
+  directory, located in the root of this project. It should contain a
+  ~import.nix~ file with the device-specific configuration.
